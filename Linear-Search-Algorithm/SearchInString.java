@@ -1,3 +1,5 @@
+// Q. Searching if character is present in a string or not.
+
 public class SearchInString {
     public static boolean checkStr(String s, char target){
         for(int i=0; i<s.length(); i++){
