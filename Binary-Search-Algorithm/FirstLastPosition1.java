@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class FirstLastPosition {
+public class FirstLastPosition1 {
     public static int[] firstLastPosition(int arr[], int target){
         int fp = -1;
         int lp = -1;
