@@ -4,6 +4,10 @@
 // Ceiling of a number is a smallest number >= target
 public class CeilingOfNumber {
     public static int ceilingNumber(int arr[], int target){
+        if(target > arr[arr.length - 1]){
+            return -1;
+        }
+
         int start = 0;
         int end = arr.length - 1;
 
@@ -24,6 +28,6 @@ public class CeilingOfNumber {
 
     public static void main(String[] args) {
         int arr[] = {2, 3, 5, 9, 14, 16, 18};
-        System.out.println(ceilingNumber(arr, 18));
+        System.out.println(ceilingNumber(arr, 19));
     }
 }
