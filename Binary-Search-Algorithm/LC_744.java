@@ -1,4 +1,4 @@
-// Q. Find the smallest letter greater than target. (Leetcode - 34)
+// Q. Find the smallest letter greater than target. (Leetcode - 744) (E)
 
 public class LC_744 {
     public static char nextGreatChar(char[] letters, char target){
