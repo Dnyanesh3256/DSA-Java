@@ -6,7 +6,7 @@ public class LC_34 {
     public static int search(int[] nums, int target, boolean isFirstPosition){
         int start = 0;
         int end = nums.length - 1;
-        int ans = -1;
+        int ans = -1; 
 
         while(start <= end){
             int mid = start + (end - start) / 2;
