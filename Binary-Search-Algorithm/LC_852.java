@@ -15,7 +15,7 @@ public class LC_852 {
             }
         }
 
-        return start;
+        return start;   // at last it becomes (start == end)
     }
 
     public static void main(String[] args) {
