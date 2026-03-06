@@ -2,7 +2,6 @@
 
 public class SearchRowColSortedMatrix {
     public static boolean matSearch(int mat[][], int x) {
-        // your code here
         int n = mat.length;
         int m = mat[0].length;
         
