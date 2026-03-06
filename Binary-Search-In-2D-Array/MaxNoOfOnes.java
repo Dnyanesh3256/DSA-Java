@@ -1,8 +1,7 @@
-// Q. Maximum no of 1's row
+// Q. Maximum no of 1's row. (GFG) (E)
 
 public class MaxNoOfOnes {
     public static int maxOnes(int Mat[][], int N, int M) {
-        // your code here
         int ans = -1;
         int maxCount = -1;
         for(int i=0; i<N; i++){
