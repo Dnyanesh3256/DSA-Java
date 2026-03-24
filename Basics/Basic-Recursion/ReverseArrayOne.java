@@ -17,12 +17,6 @@ public class ReverseArrayOne {
         reverse(arr, start+1, end-1);    
     }
 
-    public static void swap(int a, int b){
-        int temp = a;
-        a = b;
-        b = temp;
-    }
-
     public static void main(String[] args) {
         int arr[] = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(arr));
